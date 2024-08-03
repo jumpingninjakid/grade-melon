@@ -155,7 +155,7 @@ export default function FAQ() {
 					</summary>
 
 					<p className="px-4 mt-4 leading-relaxed dark:text-white">
-						Just click the little plus button and put in the info of how many points the assignment is worth and how many points you think you'll get. Try to match the way other grades are shown for that class so you get an accurate prediction.
+						Just click the little plus button and put in the info of how many points the assignment is worth and how many points you think you&apos;ll get. Try to match the way other grades are shown for that class so you get an accurate prediction.
 						You can also edit the values of previous assignments by clicking on the fields.
 					</p>
 				</details>
