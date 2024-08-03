@@ -23,7 +23,7 @@ const noShowNav = ["/login", "/", "/privacy"];
 function MyApp({ Component, pageProps }) {
 	const router = useRouter();
 	const [districtURL, setDistrictURL] = useState(
-		"https://md-mcps-psv.edupoint.com"
+		"https://studentvue.cobbk12.org"
 	);
 	const [client, setClient] = useState(undefined);
 	const [studentInfo, setStudentInfo] = useState(undefined);
