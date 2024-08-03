@@ -54,18 +54,6 @@ export default function MobileBar() {
 						<AiOutlineCalendar className="h-full" size="1.2rem" />
 					</Link>
 				</li>
-				<li className="w-full">
-					<Link
-						href="/documents"
-						className={`flex justify-center p-4 w-full bg-${
-							router.pathname === "/documents" ? "gray-200" : "white"
-						} rounded-r-lg hover:text-gray-700 hover:bg-gray-200 focus:outline-none dark:hover:text-white dark:bg-gray-${
-							router.pathname === "/documents" ? 700 : 800
-						} dark:hover:bg-gray-700`}
-					>
-						<IoDocumentTextOutline className="h-full" size="1.2rem" />
-					</Link>
-				</li>
 			</ul>
 		</div>
 	);
