@@ -97,11 +97,66 @@ export default function FAQ() {
 					</summary>
 
 					<p className="px-4 mt-4 leading-relaxed dark:text-white">
-						To send feedback regarding Grade Melon, please email{" "}
-						<a href="mailto:tinu@grademelon.com" className="text-primary-500">
-							tinu@grademelon.com
+						To send feedback regarding Grade Melon, please submit an issue on the GH: {" "}
+						<a href="https://github.com/jumpingninjakid/grade-melon/issues" className="text-primary-500">
+							https://github.com/jumpingninjakid/grade-melon/issues
 						</a>
 						.
+					</p>
+				</details>
+
+				<details className="group [&_summary::-webkit-details-marker]:hidden">
+					<summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-white dark:bg-gray-800 border dark:border-gray-700 dark:text-white">
+						<h2 className="font-medium">
+							How do I view progress reports/report cards?
+						</h2>
+
+						<svg
+							className="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth="2"
+								d="M19 9l-7 7-7-7"
+							/>
+						</svg>
+					</summary>
+
+					<p className="px-4 mt-4 leading-relaxed dark:text-white">
+						To view report cards you must go to the Studentvue site for your school/district.
+					</p>
+				</details>
+
+				<details className="group [&_summary::-webkit-details-marker]:hidden">
+					<summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-white dark:bg-gray-800 border dark:border-gray-700 dark:text-white">
+						<h2 className="font-medium">
+							How do I customize my grades?
+						</h2>
+
+						<svg
+							className="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth="2"
+								d="M19 9l-7 7-7-7"
+							/>
+						</svg>
+					</summary>
+
+					<p className="px-4 mt-4 leading-relaxed dark:text-white">
+						Just click the little plus button and put in the info of how many points the assignment is worth and how many points you think you'll get. Try to match the way other grades are shown for that class so you get an accurate prediction.
+						You can also edit the values of previous assignments by clicking on the fields.
 					</p>
 				</details>
 			</div>
